@@ -1,64 +1,62 @@
 <template>
-  <div class="q-pa-md row justify-around q-gutter-md">
-    <q-card class="my-card">
-      <q-img ratio="1.5" fit="fill" src="~assets/faultDetectorApp.png">
-        <div class="absolute-bottom text-h6" style="padding: 0">
-          <q-item
-            clickable
-            style="padding: 16px"
-            tag="detectorDeFallas"
-            target="_blank"
-            href="https://alvarohc777.github.io/"
-          >
-            {{ faultDetectorAPP.name }}
-          </q-item>
-        </div>
-      </q-img>
-
-      <q-card-section>
-        {{ faultDetectorAPP.description }}
-      </q-card-section>
-    </q-card>
-
-    <q-card class="my-card">
-      <q-img ratio="1.5" fit="fill" src="~assets/finaleApp.png">
-        <q-icon
-          class="absolute all-pointer-events"
-          size="32px"
-          name="warning"
-          color="red"
-          style="top: 6px; left: 6px"
+  <q-card class="my-card">
+    <q-img ratio="1.5" fit="fill" src="~assets/faultDetectorApp.png">
+      <div class="absolute-bottom text-h6" style="padding: 0">
+        <q-item
+          clickable
+          style="padding: 16px"
+          tag="detectorDeFallas"
+          target="_blank"
+          href="https://alvarohc777.github.io/"
         >
-          <q-tooltip> App on development </q-tooltip>
-        </q-icon>
-        <div class="absolute-bottom text-h6" style="padding: 0">
-          <q-item
-            clickable
-            style="padding: 16px"
-            tag="finaleApp"
-            target="_blank"
-            href="https://finaleapp.azurewebsites.net/"
-          >
-            {{ finaleAPP.name }}
-          </q-item>
-        </div>
-      </q-img>
+          {{ faultDetectorAPP.name }}
+        </q-item>
+      </div>
+    </q-img>
 
-      <q-card-section>
-        {{ finaleAPP.description }}
-      </q-card-section>
-    </q-card>
+    <q-card-section>
+      {{ faultDetectorAPP.description }}
+    </q-card-section>
+  </q-card>
 
-    <q-card class="my-card">
-      <q-img src="https://cdn.quasar.dev/img/parallax2.jpg">
-        <div class="absolute-bottom text-h6">Project X</div>
-      </q-img>
+  <q-card class="my-card">
+    <q-img ratio="1.5" fit="fill" src="~assets/finaleApp.png">
+      <q-icon
+        class="absolute all-pointer-events"
+        size="32px"
+        name="warning"
+        color="red"
+        style="top: 6px; left: 6px"
+      >
+        <q-tooltip> App on development </q-tooltip>
+      </q-icon>
+      <div class="absolute-bottom text-h6" style="padding: 0">
+        <q-item
+          clickable
+          style="padding: 16px"
+          tag="finaleApp"
+          target="_blank"
+          href="https://finaleapp.azurewebsites.net/"
+        >
+          {{ finaleAPP.name }}
+        </q-item>
+      </div>
+    </q-img>
 
-      <q-card-section>
-        {{ lorem }}
-      </q-card-section>
-    </q-card>
-  </div>
+    <q-card-section>
+      {{ finaleAPP.description }}
+    </q-card-section>
+  </q-card>
+
+  <q-card class="my-card">
+    <q-img src="https://cdn.quasar.dev/img/parallax2.jpg">
+      <div class="absolute-bottom text-h6">Project X</div>
+    </q-img>
+
+    <q-card-section>
+      {{ lorem }}
+    </q-card-section>
+  </q-card>
 </template>
 
 <style>

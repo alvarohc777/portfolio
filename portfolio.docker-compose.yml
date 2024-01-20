@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  portfolio:
+    container_name: portfolio
+    image: portfolio:v0.1
+
+    ports:
+      - 9999:443
+
+    entrypoint: quasar serve -p 443

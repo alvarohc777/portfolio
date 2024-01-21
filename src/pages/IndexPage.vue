@@ -53,8 +53,8 @@
       <q-separator inset />
       <div class="q-pa-md row justify-between q-gutter-md">
         <q-item-label overline style="font-size: 20px"
-          >Certifications</q-item-label
-        >
+          >Specializations & Courses
+        </q-item-label>
       </div>
       <!-- <div class="q-pa-md row justify-start q-gutter-md">
         <CertificationsCards></CertificationsCards>

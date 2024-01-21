@@ -6,7 +6,7 @@
       :href="'https://' + project.link"
       target="_blank"
     >
-      <q-img ratio="1.5" fit="fill" :src="project.img">
+      <q-img ratio="1.5" :fit="project.imgFit" :src="project.img">
         <q-icon
           v-if="project.onDev"
           class="absolute all-pointer-events"
@@ -71,6 +71,7 @@ const faultDetectorAPP = {
   organization: ' | Proyecto INTEGRA',
   stack: 'Vanilla JS + Django-Ninja + NumPy Stack',
   link: 'alvarohc777.github.io/',
+  imgFit: 'fill',
   img: 'projects/faultDetectorApp.png'
 }
 const finaleApp = {
@@ -81,9 +82,46 @@ const finaleApp = {
   stack:
     'Quasar (VueJs) + ASP.NET + PostgreSQL + Docker/docker-compose + Azure ',
   link: 'finaleapp.azurewebsites.net/',
+  imgFit: 'fill',
   img: 'projects/finaleApp.png',
   onDev: 'App on development'
 }
+const SEM = {
+  name: 'SEM',
+  description:
+    'ATP-EMTP fault and event simulation automation tool. I refactored it by decoupling frontend and backend (previously PyQT), and implemented multiprocessing, reducing simulation time to 25%',
+  organization: ' - Universidad del Norte',
+  stack: 'Python + NumPy + Pandas + ATP-EMTP + CMD/batch',
+  link: 'github.com/alvarohc777/SEM',
+  imgFit: 'contain',
+  img: 'projects/SEM.jpg'
+}
+const LSTMFaultDetector = {
+  name: 'LSTM Fault Detector',
+  description:
+    'LSTM based Fault Detector for Microgrids (MG) and Active Distribution Networks (ADN) for my thesis. Use Jupyter Notebooks to document all progress. Dataset was created using SEM automation tool.',
+  organization: ' - Universidad del Norte',
+  stack: 'Python + Pytorch + NumPy Stack + Jupyter notebooks',
+  link: 'github.com/alvarohc777/pyTorch',
+  imgFit: 'contain',
+  img: 'projects/LSTMFaultDetector.png'
+}
+const utilsTesisPackage = {
+  name: 'Thesis Utils Package',
+  description:
+    'Utils-tesis is a Python package that provides a collection of auxiliary functions for various tasks commonly encountered in thesis and research projects.',
+  organization: ' - Universidad del Norte',
+  stack: 'Numpy + Pandas + SciPy + Matplotlib + Github Actions + PyPi ',
+  link: 'pypi.org/project/utils-tesis/',
+  imgFit: 'cover',
+  img: 'projects/utilsTesis.png'
+}
 const projects = ref([])
-projects.value = [faultDetectorAPP, finaleApp]
+projects.value = [
+  faultDetectorAPP,
+  finaleApp,
+  SEM,
+  LSTMFaultDetector,
+  utilsTesisPackage
+]
 </script>

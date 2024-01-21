@@ -1,6 +1,6 @@
 <template>
   <q-layout view="hHh lpr fFf">
-    <q-header elevated>
+    <q-header elevated reveal>
       <q-toolbar>
         <q-btn
           flat
@@ -34,7 +34,7 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <q-footer reveal> hola </q-footer>
+    <!-- <q-footer reveal> hola </q-footer> -->
   </q-layout>
 </template>
 

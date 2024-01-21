@@ -1,5 +1,5 @@
 <template>
-  <q-list class="rounded-borders" style="max-width: 600px">
+  <q-list class="rounded-borders" style="max-width: 100%">
     <q-item
       clickable
       href="https://www.coursera.org/account/accomplishments/specialization/certificate/6NNTSPRF9N2A"

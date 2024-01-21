@@ -1,5 +1,5 @@
 <template>
-  <q-list class="rounded-borders" style="max-width: 600px">
+  <q-list class="rounded-borders">
     <q-item clickable href="https://www.bluetab.net/es/" target="_blank">
       <q-item-section avatar top>
         <q-icon color="black" size="34px">

@@ -4,8 +4,8 @@
       <q-avatar size="320px" round>
         <img src="~assets/profilePicture3.png" alt="profile-picture" />
       </q-avatar>
-      <q-item style="padding-left: 0">
-        <q-item-section>
+      <q-item>
+        <q-item-section class="text-center">
           <q-item-label overline style="font-size: 20px">{{
             personalInfo.name
           }}</q-item-label>

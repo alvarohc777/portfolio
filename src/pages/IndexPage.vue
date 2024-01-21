@@ -37,13 +37,14 @@
       <AboutMe></AboutMe>
       <!-- <div class="q-pa-md row justify-start q-gutter-md">
         <AboutMe></AboutMe>
+      </div> -->
     </div>
     <div id="projects" class="section-container">
       <q-separator inset />
       <div class="q-pa-md row justify-between q-gutter-md">
         <q-item-label overline style="font-size: 20px">Projects</q-item-label>
       </div>
-      <div class="q-pa-md row justify-between q-gutter-md">
+      <div class="q-pa-md row justify-start q-gutter-md">
         <ProjectsCards></ProjectsCards>
       </div>
     </div>
@@ -68,6 +69,7 @@
 .section-container {
   /* min-height: 600px; */
   width: 60%;
+  min-width: 350px;
   margin-bottom: 40px;
 }
 </style>

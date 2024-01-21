@@ -48,13 +48,18 @@
       </div>
     </div>
 
-    <div id="certification" class="section-container">
+    <div id="certifications" class="section-container">
       <q-separator inset />
-      <div class="q-pa-md row justify-between q-gutter-md section-container">
+      <div class="q-pa-md row justify-between q-gutter-md">
         <q-item-label overline style="font-size: 20px"
           >Certifications</q-item-label
         >
       </div>
+      <!-- <div class="q-pa-md row justify-start q-gutter-md">
+        <CertificationsCards></CertificationsCards>
+      </div> -->
+
+      <CertificationsCards></CertificationsCards>
     </div>
   </q-page>
 </template>
@@ -69,6 +74,7 @@
 <script setup>
 import ProjectsCards from 'components/ProjectsCards.vue'
 import AboutMe from 'components/AboutMe.vue'
+import CertificationsCards from 'components/CertificationsCards.vue'
 import { ref } from 'vue'
 const personalInfo = ref([])
 

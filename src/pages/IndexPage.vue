@@ -10,7 +10,7 @@
             personalInfo.name
           }}</q-item-label>
           <q-item-label caption lines="2">{{
-            personalInfo.career
+            personalInfo.careerInterests
           }}</q-item-label>
         </q-item-section>
       </q-item>
@@ -79,7 +79,9 @@ import AboutMe from 'components/AboutMe.vue'
 import CertificationsCards from 'components/CertificationsCards.vue'
 import { ref } from 'vue'
 const personalInfo = ref([])
-
-personalInfo.value.name = 'Alvaro Herrada Coronell'
-personalInfo.value.career = 'Electrical Engineer'
+personalInfo.value = {
+  name: 'Alvaro Herrada Coronell',
+  career: 'Electrical Engineer',
+  careerInterests: 'Data Science | Machine Learning | Web Dev '
+}
 </script>

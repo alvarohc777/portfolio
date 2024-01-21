@@ -21,7 +21,7 @@
 
     <q-drawer v-model="leftDrawerOpen" bordered overlay>
       <q-list>
-        <q-item-label header> Essential Links </q-item-label>
+        <q-item-label header> Let's Connect </q-item-label>
 
         <EssentialLink
           v-for="link in essentialLinks"
@@ -56,15 +56,27 @@ const linksList = [
     link: 'https://github.com/alvarohc777'
   },
   {
-    title: 'Finale FC',
-    caption: 'Sunday League Team',
+    title: 'Instagram',
+    caption: '@alvarohc777',
+    icon: 'fa-brands fa-instagram',
+    link: 'https://www.instagram.com/alvarohc777/'
+  },
+  {
+    title: 'Finale F.C.',
+    caption: 'Undergraduate Football Team',
     icon: 'fa-regular fa-futbol',
     link: 'https://www.instagram.com/fcfinale_/'
   },
   {
+    title: 'Racing Uninorte F.C.',
+    caption: 'Graduate Sundaly League Team',
+    icon: 'fa-solid fa-futbol',
+    link: 'https://www.instagram.com/racinguninorte/'
+  },
+  {
     title: 'Email',
-    caption: 'outlook.com',
-    icon: 'email',
+    caption: 'aherrada@uninorte.edu.co',
+    icon: 'fa-solid fa-envelope',
     link: 'mailto:aherrada@uninorte.edu.co'
   }
 ]

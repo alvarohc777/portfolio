@@ -11,13 +11,15 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Alvaro Herrada </q-toolbar-title>
+        <q-toolbar-title class="text-overline" style="font-size: large">
+          Alvaro Herrada
+        </q-toolbar-title>
 
-        <div>Alvarohc777 v{{ $q.version }}</div>
+        <div>@alvarohc777</div>
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="leftDrawerOpen" bordered>
+    <q-drawer v-model="leftDrawerOpen" bordered overlay>
       <q-list>
         <q-item-label header> Essential Links </q-item-label>
 
@@ -32,7 +34,7 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <q-footer> hola </q-footer>
+    <q-footer reveal> hola </q-footer>
   </q-layout>
 </template>
 
@@ -42,46 +44,28 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
-  },
-  {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
-  },
-  {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
+    title: 'LinkedIn',
+    caption: "Let's connect",
+    icon: 'fa-brands fa-linkedin-in',
     link: 'https://chat.quasar.dev'
   },
   {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    title: 'Github',
+    caption: 'github.com/alvarohc777',
+    icon: 'fa-brands fa-github',
+    link: 'https://github.com/alvarohc777'
   },
   {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    title: 'Finale FC',
+    caption: 'Sunday League Team',
+    icon: 'fa-regular fa-futbol',
+    link: 'https://www.instagram.com/fcfinale_/'
   },
   {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
+    title: 'Email',
+    caption: 'outlook.com',
+    icon: 'email',
+    link: 'mailto:aherrada@uninorte.edu.co'
   }
 ]
 

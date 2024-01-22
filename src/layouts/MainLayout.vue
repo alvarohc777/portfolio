@@ -70,7 +70,7 @@ const linksList = [
   {
     title: 'Racing Uninorte F.C.',
     caption: 'Graduate Sundaly League Team',
-    icon: 'fa-solid fa-futbol',
+    icon: 'fa-regular fa-futbol',
     link: 'https://www.instagram.com/racinguninorte/'
   },
   {
@@ -82,7 +82,8 @@ const linksList = [
   {
     title: 'VSCO',
     caption: 'vsco.co/alvarohc777',
-    icon: 'fa-solid fa-camera',
+    icon: 'img:icons8-vsco.svg',
+    // icon: 'fa-solid fa-camera',
     link: 'https://vsco.co/alvarohc777/gallery'
   },
   {

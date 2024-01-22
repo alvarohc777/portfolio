@@ -47,7 +47,7 @@ const linksList = [
     title: 'LinkedIn',
     caption: "Let's connect",
     icon: 'fa-brands fa-linkedin-in',
-    link: 'https://chat.quasar.dev'
+    link: 'https://www.linkedin.com/in/%C3%A1lvaro-andr%C3%A9s-herrada-coronell-4a6372230/'
   },
   {
     title: 'Github',

@@ -44,9 +44,11 @@
       <div class="q-pa-md row justify-between q-gutter-md">
         <q-item-label overline style="font-size: 20px">Projects</q-item-label>
       </div>
-      <div class="q-pa-md row justify-start q-gutter-md">
-        <ProjectsCards></ProjectsCards>
-      </div>
+      <q-scroll-area visible="false" style="height: 950px; width: 100%">
+        <div class="q-pa-md row justify-start q-gutter-md">
+          <ProjectsCards></ProjectsCards>
+        </div>
+      </q-scroll-area>
     </div>
 
     <div id="certifications" class="section-container">

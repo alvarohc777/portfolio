@@ -12,7 +12,7 @@
           <span class="text-weight-medium">Data Technician</span>
           <span class="text-grey-8"> - Bluetab, an IBM company</span>
         </q-item-label>
-        <q-item-label caption lines="1"> Barranquilla, Colombia </q-item-label>
+        <q-item-label caption lines="1"> Bogotá, Colombia </q-item-label>
         <q-item-label
           lines="1"
           class="q-mt-xs text-body2 text-weight-bold text-primary text-uppercase"

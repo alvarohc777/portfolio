@@ -90,7 +90,7 @@ const SEM = {
   name: 'SEM',
   description:
     'ATP-EMTP fault and event simulation automation tool. I refactored it by decoupling frontend and backend (previously PyQT), and implemented multiprocessing, reducing simulation time to 25%',
-  organization: ' - Universidad del Norte',
+  organization: ' | Universidad del Norte',
   stack: 'Python + NumPy + Pandas + ATP-EMTP + CMD/batch',
   link: 'github.com/alvarohc777/SEM',
   imgFit: 'contain',
@@ -100,7 +100,7 @@ const LSTMFaultDetector = {
   name: 'LSTM Fault Detector',
   description:
     'LSTM based Fault Detector for Microgrids (MG) and Active Distribution Networks (ADN) for my thesis. Use Jupyter Notebooks to document all progress. Dataset was created using SEM automation tool.',
-  organization: ' - Universidad del Norte',
+  organization: ' | Universidad del Norte',
   stack: 'Python + Pytorch + NumPy Stack + Jupyter notebooks',
   link: 'github.com/alvarohc777/pyTorch',
   imgFit: 'contain',
@@ -110,7 +110,7 @@ const utilsTesisPackage = {
   name: 'Thesis Utils Package',
   description:
     'Utils-tesis is a Python package that provides a collection of auxiliary functions for various tasks commonly encountered in thesis and research projects.',
-  organization: ' - Universidad del Norte',
+  organization: ' | Universidad del Norte',
   stack: 'Numpy + Pandas + SciPy + Matplotlib + Github Actions + PyPi ',
   link: 'pypi.org/project/utils-tesis/',
   imgFit: 'cover',

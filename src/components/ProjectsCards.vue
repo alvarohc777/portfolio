@@ -89,7 +89,7 @@ const finaleApp = {
 const SEM = {
   name: 'SEM',
   description:
-    'ATP-EMTP fault and event simulation automation tool. I refactored it by decoupling frontend and backend (previously PyQT), and implemented multiprocessing, reducing simulation time to 25%',
+    'ATP-EMTP fault and event simulation automation tool. I refactored it by decoupling frontend and backend (previously PyQT), and implemented multiprocessing, reducing simulation time to 25%.',
   organization: ' | Universidad del Norte',
   stack: 'Python + NumPy + Pandas + ATP-EMTP + CMD/batch',
   link: 'github.com/alvarohc777/SEM',
@@ -109,7 +109,7 @@ const LSTMFaultDetector = {
 const utilsTesisPackage = {
   name: 'Thesis Utils Package',
   description:
-    'Utils-tesis is a Python package that provides a collection of auxiliary functions for various tasks commonly encountered in thesis and research projects.',
+    'Utils-tesis is a Python package that provides a collection of auxiliary functions for various tasks that I commonly encountered during my thesis and research project.',
   organization: ' | Universidad del Norte',
   stack: 'Numpy + Pandas + SciPy + Matplotlib + Github Actions + PyPi ',
   link: 'pypi.org/project/utils-tesis/',

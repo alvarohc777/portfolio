@@ -58,9 +58,25 @@ const LinearAlgebraCourse = {
   img: 'specializations/deeplearningaiLogo.png',
   link: 'https://www.coursera.org/account/accomplishments/certificate/RPJC49UZUZV2'
 }
+const googleCloud = {
+  name: 'Digital Transformation with Google Cloud',
+  instructor: 'Google Cloud',
+  platform: 'Coursera',
+  img: 'specializations/googleCloudLogo.png',
+  link: 'https://www.coursera.org/account/accomplishments/certificate/TCUKAXLCTR4D'
+}
+const jetsonNanoNvidia = {
+  name: 'Getting Started with AI on Jetson Nano',
+  instructor: 'Deep Learning Institute',
+  platform: 'NVIDIA',
+  img: 'specializations/nvidiaLogo.png',
+  link: 'https://courses.nvidia.com/certificates/d4e424a8e24947028b48f25202a11e3c/'
+}
 certifications.value = [
   deepLearningSpecialization,
   DjangoSpecialization,
-  LinearAlgebraCourse
+  LinearAlgebraCourse,
+  googleCloud,
+  jetsonNanoNvidia
 ]
 </script>

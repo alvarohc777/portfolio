@@ -21,7 +21,7 @@
 
     <q-drawer v-model="leftDrawerOpen" bordered overlay>
       <q-list>
-        <q-item-label header> Let's Connect </q-item-label>
+        <q-item-label header> Find me on </q-item-label>
 
         <EssentialLink
           v-for="link in essentialLinks"
@@ -72,6 +72,18 @@ const linksList = [
     caption: 'Graduate Sundaly League Team',
     icon: 'fa-solid fa-futbol',
     link: 'https://www.instagram.com/racinguninorte/'
+  },
+  {
+    title: 'Dante',
+    caption: 'My four legged best friend',
+    icon: 'fa-solid fa-paw',
+    link: 'https://www.instagram.com/dante.border7/'
+  },
+  {
+    title: 'VSCO',
+    caption: 'vsco.co/alvarohc777',
+    icon: 'fa-solid fa-camera',
+    link: 'https://vsco.co/alvarohc777/gallery'
   },
   {
     title: 'Email',

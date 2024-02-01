@@ -10,7 +10,7 @@ RUN npm install
 RUN quasar build
 
 # Stage 2: Final Stage
-FROM node:slim
+FROM node:21-alpine3.19
 WORKDIR /app/
 COPY --from=build /portfolio/dist/spa/ /app/
 RUN npm install -g @quasar/cli

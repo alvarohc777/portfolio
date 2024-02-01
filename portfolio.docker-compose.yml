@@ -3,9 +3,10 @@ version: '3.7'
 services:
   portfolio:
     container_name: portfolio
-    image: portfolio:v0.2
+    image: portfolio:v1.0-nginx
 
     ports:
-      - 9999:443
+      - 443:443
+      - 80:80
 
-    entrypoint: quasar serve -p 443
+    entrypoint: ["nginx", "-g", "daemon off;"]

@@ -10,7 +10,6 @@ RUN npm install
 RUN quasar build
 
 # Stage 2: Final Stage
-FROM node:21-alpine3.19
+FROM nginx:1.25.3-alpine3.18 AS production-stage
 WORKDIR /app/
-COPY --from=build /portfolio/dist/spa/ /app/
-RUN npm install -g @quasar/cli
+COPY --from=build /portfolio/dist/spa/ /usr/share/nginx/html

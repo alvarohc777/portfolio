@@ -11,5 +11,5 @@ RUN quasar build
 
 # Stage 2: Final Stage
 FROM nginx:1.25.3-alpine3.18 AS production-stage
-WORKDIR /app/
 COPY --from=build /portfolio/dist/spa/ /usr/share/nginx/html
+COPY nginx/conf.d/default.conf /etc/nginx/conf.d/default.conf

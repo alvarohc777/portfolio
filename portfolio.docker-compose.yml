@@ -3,7 +3,7 @@ version: '3.7'
 services:
   portfolio:
     container_name: portfolio
-    image: portfolio:v1.0-nginx
+    image: portfolio:v1.1-nginx
 
     ports:
       - 443:443

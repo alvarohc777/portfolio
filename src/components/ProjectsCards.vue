@@ -67,7 +67,7 @@ import { ref } from 'vue'
 const faultDetectorAPP = {
   name: 'Fault Detector',
   description:
-    'Web App for visualization of fault detection strategy based on harmonic distortion as part of research project INTEGRA.',
+    'Web App for visualization of fault detection strategy based on harmonic distortion as part of research project INTEGRA. Hosted in github pages.',
   organization: ' | Proyecto INTEGRA',
   stack: 'Vanilla JS + Django-Ninja + NumPy Stack',
   link: 'alvarohc777.github.io/',
@@ -77,7 +77,7 @@ const faultDetectorAPP = {
 const finaleApp = {
   name: 'Finale App',
   description:
-    'Web App designed for football team management, simplifying team members’ data collection. Frontend and Backend conteinerized, togheter with DB hosted in Azure. ',
+    'Web App designed for football team management, simplifying team members’ data collection. Frontend and Backend conteinerized, togheter with DB hosted in Azure.',
   organization: '',
   stack:
     'Quasar (VueJs) + ASP.NET + PostgreSQL + Docker/docker-compose + Azure ',
@@ -85,6 +85,17 @@ const finaleApp = {
   imgFit: 'fill',
   img: 'projects/finaleApp.png',
   onDev: 'App on development'
+}
+const radowskiApp = {
+  name: 'Radowski',
+  description:
+    'Simple poems/books portfolio website. Hosted Quasar SPA with Nginx, Backend APIs with Django-ninja (FastAPI style), cover images and PDFs saved in Azure Blobs and content and metadata saved in Postgres DB.',
+  organization: '',
+  stack: 'Quasar/Nginx + Django + PostgreSQL + Docker/docker-compose + Azure ',
+  link: 'radowski.azurewebsites.net/',
+  imgFit: 'fill',
+  img: 'projects/radowskiApp.png',
+  onDev: 'development continues'
 }
 const SEM = {
   name: 'SEM',
@@ -120,6 +131,7 @@ const projects = ref([])
 projects.value = [
   faultDetectorAPP,
   finaleApp,
+  radowskiApp,
   SEM,
   LSTMFaultDetector,
   utilsTesisPackage

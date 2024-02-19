@@ -58,6 +58,13 @@ const LinearAlgebraCourse = {
   img: 'specializations/deeplearningaiLogo.png',
   link: 'https://www.coursera.org/account/accomplishments/certificate/RPJC49UZUZV2'
 }
+const CalculusCourse = {
+  name: 'Calculus for Machine Learning and Data Science',
+  instructor: 'DeepLearning.AI',
+  platform: 'Coursera',
+  img: 'specializations/deeplearningaiLogo.png',
+  link: 'https://www.coursera.org/account/accomplishments/certificate/RA667DS32AWU'
+}
 const googleCloud = {
   name: 'Digital Transformation with Google Cloud',
   instructor: 'Google Cloud',
@@ -76,6 +83,7 @@ certifications.value = [
   deepLearningSpecialization,
   DjangoSpecialization,
   LinearAlgebraCourse,
+  CalculusCourse,
   googleCloud,
   jetsonNanoNvidia
 ]

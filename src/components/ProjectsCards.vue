@@ -1,20 +1,9 @@
 <template>
   <q-card class="my-card" v-for="project in projects" :key="project.name">
-    <q-item
-      clickable
-      style="padding: 0px"
-      :href="'https://' + project.link"
-      target="_blank"
-    >
+    <q-item clickable style="padding: 0px" :href="'https://' + project.link" target="_blank">
       <q-img ratio="1.5" :fit="project.imgFit" :src="project.img">
-        <q-icon
-          v-if="project.onDev"
-          class="absolute all-pointer-events"
-          size="32px"
-          name="warning"
-          color="red"
-          style="top: 6px; left: 6px"
-        >
+        <q-icon v-if="project.onDev" class="absolute all-pointer-events" size="32px" name="warning" color="red"
+          style="top: 6px; left: 6px">
           <q-tooltip> {{ project.onDev }} </q-tooltip>
         </q-icon>
       </q-img>
@@ -29,22 +18,14 @@
         <q-item-label caption lines="1">
           {{ project.link }}
         </q-item-label>
-        <q-item-label
-          lines="1"
-          class="q-mt-xs text-body2 text-weight-bold text-primary text-uppercase"
-        >
+        <q-item-label lines="1" class="q-mt-xs text-body2 text-weight-bold text-primary text-uppercase">
         </q-item-label>
       </q-item-section>
 
-      <q-item-label
-        class="q-pt-sm"
-        caption
-        lines="4"
-        style="min-height: 4.5rem"
-      >
+      <q-item-label class="q-pt-sm" caption lines="4" style="min-height: 4.5rem">
         <span class="text-black text-weight-regular">{{
-          project.description
-        }}</span>
+    project.description
+  }}</span>
       </q-item-label>
 
       <q-item-label class="text-center" header>
@@ -94,8 +75,7 @@ const radowskiApp = {
   stack: 'Quasar/Nginx + Django + PostgreSQL + Docker/docker-compose + Azure ',
   link: 'radowski.azurewebsites.net/',
   imgFit: 'fill',
-  img: 'projects/radowskiApp.png',
-  onDev: 'development continues'
+  img: 'projects/radowskiApp.png'
 }
 const SEM = {
   name: 'SEM',
@@ -130,8 +110,8 @@ const utilsTesisPackage = {
 const projects = ref([])
 projects.value = [
   faultDetectorAPP,
-  finaleApp,
   radowskiApp,
+  finaleApp,
   SEM,
   LSTMFaultDetector,
   utilsTesisPackage

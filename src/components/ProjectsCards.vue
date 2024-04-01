@@ -77,6 +77,16 @@ const radowskiApp = {
   imgFit: 'fill',
   img: 'projects/radowskiApp.png'
 }
+const aryasCrew = {
+  name: 'Aryas Crew',
+  description:
+    'Simple dog training, walks and daycare website. Hosted Quasar SPA with Nginx on Azure website.',
+  organization: '',
+  stack: 'Quasar/Nginx + Docker/docker-compose + Azure ',
+  link: 'aryascrew.azurewebsites.net/',
+  imgFit: 'cover',
+  img: 'projects/aryasPicMeta.png'
+}
 const SEM = {
   name: 'SEM',
   description:
@@ -111,6 +121,7 @@ const projects = ref([])
 projects.value = [
   faultDetectorAPP,
   radowskiApp,
+  aryasCrew,
   finaleApp,
   SEM,
   LSTMFaultDetector,

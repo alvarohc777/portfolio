@@ -22,10 +22,10 @@
         </q-item-label>
       </q-item-section>
 
-      <q-item-label class="q-pt-sm" caption lines="4" style="min-height: 4.5rem">
+      <q-item-label class="q-pt-sm" caption lines="4" style="min-height: 5rem">
         <span class="text-black text-weight-regular">{{
-    project.description
-  }}</span>
+          project.description
+          }}</span>
       </q-item-label>
 
       <q-item-label class="text-center" header>
@@ -54,18 +54,6 @@ const faultDetectorAPP = {
   link: 'alvarohc777.github.io/',
   imgFit: 'fill',
   img: 'projects/faultDetectorApp.png'
-}
-const finaleApp = {
-  name: 'Finale App',
-  description:
-    'Web App designed for football team management, simplifying team members’ data collection. Frontend and Backend conteinerized, togheter with DB hosted in Azure.',
-  organization: '',
-  stack:
-    'Quasar (VueJs) + ASP.NET + PostgreSQL + Docker/docker-compose + Azure ',
-  link: 'finaleapp.azurewebsites.net/',
-  imgFit: 'fill',
-  img: 'projects/finaleApp.png',
-  onDev: 'App on development'
 }
 const radowskiApp = {
   name: 'Radowski',
@@ -122,7 +110,6 @@ projects.value = [
   faultDetectorAPP,
   radowskiApp,
   aryasCrew,
-  finaleApp,
   SEM,
   LSTMFaultDetector,
   utilsTesisPackage

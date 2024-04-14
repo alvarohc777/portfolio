@@ -1,12 +1,6 @@
 <template>
   <q-list class="rounded-borders" style="max-width: 100%">
-    <q-item
-      clickable
-      :href="certificate.link"
-      target="_blank"
-      v-for="certificate in certifications"
-      :key="certificate"
-    >
+    <q-item clickable :href="certificate.link" target="_blank" v-for="certificate in certifications" :key="certificate">
       <q-item-section avatar top>
         <q-icon color="black" size="34px">
           <img :src="certificate.img" alt="bluetabLogo" />
@@ -21,10 +15,7 @@
         <q-item-label caption lines="1">
           {{ certificate.platform }}
         </q-item-label>
-        <q-item-label
-          lines="1"
-          class="q-mt-xs text-body2 text-weight-bold text-primary text-uppercase"
-        >
+        <q-item-label lines="1" class="q-mt-xs text-body2 text-weight-bold text-primary text-uppercase">
         </q-item-label>
       </q-item-section>
     </q-item>
@@ -51,20 +42,14 @@ const DjangoSpecialization = {
   img: 'specializations/universityOfMichigan.png',
   link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/VTUXU6QVBX8F'
 }
-const LinearAlgebraCourse = {
-  name: 'Linear Algebra for Machine Learning and Data Science',
+const MathForMLDSSpecialization = {
+  name: 'Mathematics for Machine Learning and Data Science',
   instructor: 'DeepLearning.AI',
   platform: 'Coursera',
   img: 'specializations/deeplearningaiLogo.png',
-  link: 'https://www.coursera.org/account/accomplishments/certificate/RPJC49UZUZV2'
+  link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/FV9ZJKGR8TB6'
 }
-const CalculusCourse = {
-  name: 'Calculus for Machine Learning and Data Science',
-  instructor: 'DeepLearning.AI',
-  platform: 'Coursera',
-  img: 'specializations/deeplearningaiLogo.png',
-  link: 'https://www.coursera.org/account/accomplishments/certificate/RA667DS32AWU'
-}
+
 const googleCloud = {
   name: 'Digital Transformation with Google Cloud',
   instructor: 'Google Cloud',
@@ -81,9 +66,8 @@ const jetsonNanoNvidia = {
 }
 certifications.value = [
   deepLearningSpecialization,
+  MathForMLDSSpecialization,
   DjangoSpecialization,
-  LinearAlgebraCourse,
-  CalculusCourse,
   googleCloud,
   jetsonNanoNvidia
 ]

@@ -25,7 +25,7 @@
       <q-item-label class="q-pt-sm" caption lines="4" style="min-height: 5rem">
         <span class="text-black text-weight-regular">{{
           project.description
-          }}</span>
+        }}</span>
       </q-item-label>
 
       <q-item-label class="text-center" header>
@@ -65,6 +65,16 @@ const radowskiApp = {
   imgFit: 'fill',
   img: 'projects/radowskiApp.png'
 }
+const sociallogin = {
+  name: 'Social Login',
+  description:
+    'Simple django-allauth headless sociallogin example website with multiple providers and session tracking.',
+  organization: '',
+  stack: 'Django-Allauth + Quasar/Vue+ PostgreSQL + docker-compose + Azure + Nginx Reverse Proxy',
+  link: 'sociallogin.azurewebsites.net/',
+  imgFit: 'cover',
+  img: 'projects/socialloginsite.png'
+}
 const aryasCrew = {
   name: 'Aryas Crew',
   description:
@@ -88,9 +98,9 @@ const SEM = {
 const LSTMFaultDetector = {
   name: 'LSTM Fault Detector',
   description:
-    'LSTM based Fault Detector for Microgrids (MG) and Active Distribution Networks (ADN) for my thesis. Use Jupyter Notebooks to document all progress. Dataset was created using SEM automation tool.',
+    'LSTM based AI Fault Detector for Microgrids (MG) and Active Distribution Networks (ADN) for my thesis. Use Jupyter Notebooks to document all progress. Dataset was created using SEM automation tool.',
   organization: ' | Universidad del Norte',
-  stack: 'Python + Pytorch + NumPy Stack + Jupyter notebooks',
+  stack: 'Python + Pytorch + NumPy Stack + Jupyter notebooks + AI',
   link: 'github.com/alvarohc777/pyTorch',
   imgFit: 'contain',
   img: 'projects/LSTMFaultDetector.png'
@@ -108,6 +118,7 @@ const utilsTesisPackage = {
 const projects = ref([])
 projects.value = [
   faultDetectorAPP,
+  sociallogin,
   radowskiApp,
   aryasCrew,
   SEM,

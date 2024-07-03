@@ -70,10 +70,22 @@ const sociallogin = {
   description:
     'Simple django-allauth headless sociallogin example website with multiple providers and session tracking.',
   organization: '',
-  stack: 'Django-Allauth + Quasar/Vue+ PostgreSQL + docker-compose + Azure + Nginx Reverse Proxy',
+  stack: 'Django-allauth + Vue + PostgreSQL + Azure + Nginx Reverse Proxy',
   link: 'sociallogin.azurewebsites.net/',
   imgFit: 'cover',
   img: 'projects/socialloginsite.png'
+}
+const finaleApp = {
+  name: 'Finale App',
+  description:
+    'Web App designed for football team management, simplifying team members’ data collection. Frontend and Backend conteinerized, togheter with DB hosted in Azure.',
+  organization: '',
+  stack:
+    'Quasar (VueJs) + ASP.NET + PostgreSQL + Docker/docker-compose + Azure ',
+  link: 'finaleapp.azurewebsites.net/',
+  imgFit: 'fill',
+  img: 'projects/finaleApp.png',
+  onDev: 'App on development'
 }
 const aryasCrew = {
   name: 'Aryas Crew',
@@ -123,6 +135,7 @@ projects.value = [
   aryasCrew,
   SEM,
   LSTMFaultDetector,
-  utilsTesisPackage
+  utilsTesisPackage,
+  finaleApp
 ]
 </script>

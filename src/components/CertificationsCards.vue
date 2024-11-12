@@ -1,6 +1,7 @@
 <template>
   <q-list class="rounded-borders" style="max-width: 100%">
-    <q-item clickable :href="certificate.link" target="_blank" v-for="certificate in certifications" :key="certificate">
+    <q-item clickable :href="certificate.link" target="_blank" v-for="certificate in certifications" :key="certificate"
+      class="noLeftMaring">
       <q-item-section avatar top>
         <q-icon color="black" size="34px">
           <img :src="certificate.img" alt="bluetabLogo" />
@@ -23,7 +24,11 @@
     <!-- <q-separator spaced /> -->
   </q-list>
 </template>
-
+<style>
+.noLeftMaring {
+  padding-left: 0;
+}
+</style>
 <script setup>
 import { ref } from 'vue'
 

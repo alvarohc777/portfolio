@@ -8,10 +8,10 @@
         <q-item-section class="text-center">
           <q-item-label overline style="font-size: 20px">{{
             personalInfo.name
-          }}</q-item-label>
+            }}</q-item-label>
           <q-item-label caption lines="2">{{
             personalInfo.careerInterests
-          }}</q-item-label>
+            }}</q-item-label>
         </q-item-section>
       </q-item>
 
@@ -54,64 +54,43 @@
     <div id="certifications" class="section-container">
       <q-separator inset />
       <div class="q-pa-md row justify-between q-gutter-md">
-        <q-item-label overline style="font-size: 20px"
-          >Specializations & Courses
+        <q-item-label overline style="font-size: 20px">Specializations & Courses
         </q-item-label>
       </div>
+
       <!-- <div class="q-pa-md row justify-start q-gutter-md">
         <CertificationsCards></CertificationsCards>
       </div> -->
-
-      <CertificationsCards></CertificationsCards>
+      <q-scroll-area visible="false" style="height: 270px; width: 100%">
+        <div class="q-pa-md row justify-start q-gutter-md">
+          <CertificationsCards></CertificationsCards>
+        </div>
+      </q-scroll-area>
+      <!-- <CertificationsCards></CertificationsCards> -->
     </div>
     <div id="playlists" class="section-container">
       <q-separator inset />
       <div class="q-pa-md row justify-between q-gutter-md">
-        <q-item-label overline style="font-size: 20px"
-          >Playlists <q-icon name="fa-solid fa-headphones" />
+        <q-item-label overline style="font-size: 20px">Playlists <q-icon name="fa-solid fa-headphones" />
         </q-item-label>
       </div>
       <div class="q-pa-md row justify-around q-gutter-sm">
-        <iframe
-          style="border-radius: 12px; max-width: 535px"
-          src="https://open.spotify.com/embed/playlist/07Pj4tgcmZRAAtao8XsZDb?utm_source=generator"
-          width="100%"
-          height="152"
-          frameBorder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
-        <iframe
-          style="border-radius: 12px; max-width: 535px"
-          src="https://open.spotify.com/embed/playlist/586QkT4kj3AZjoBNUZrSWL?utm_source=generator"
-          width="100%"
-          height="152"
-          frameBorder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
-        <iframe
-          style="border-radius: 12px; max-width: 535px"
-          src="https://open.spotify.com/embed/playlist/34LHIvTQSbStSyeBuHt2Ef?utm_source=generator"
-          width="100%"
-          height="152"
-          frameBorder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
-        <iframe
-          style="border-radius: 12px; max-width: 535px"
-          src="https://open.spotify.com/embed/playlist/4J0YdGYZJW3VyM4cZYbtbQ?utm_source=generator"
-          width="100%"
-          height="152"
-          frameBorder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
+        <iframe style="border-radius: 12px; max-width: 535px"
+          src="https://open.spotify.com/embed/playlist/07Pj4tgcmZRAAtao8XsZDb?utm_source=generator" width="100%"
+          height="152" frameBorder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe style="border-radius: 12px; max-width: 535px"
+          src="https://open.spotify.com/embed/playlist/586QkT4kj3AZjoBNUZrSWL?utm_source=generator" width="100%"
+          height="152" frameBorder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe style="border-radius: 12px; max-width: 535px"
+          src="https://open.spotify.com/embed/playlist/34LHIvTQSbStSyeBuHt2Ef?utm_source=generator" width="100%"
+          height="152" frameBorder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe style="border-radius: 12px; max-width: 535px"
+          src="https://open.spotify.com/embed/playlist/4J0YdGYZJW3VyM4cZYbtbQ?utm_source=generator" width="100%"
+          height="152" frameBorder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </div>
     </div>
   </q-page>

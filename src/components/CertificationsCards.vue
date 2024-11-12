@@ -64,9 +64,25 @@ const jetsonNanoNvidia = {
   img: 'specializations/nvidiaLogo.png',
   link: 'https://courses.nvidia.com/certificates/d4e424a8e24947028b48f25202a11e3c/'
 }
+const pyspark = {
+  name: 'Scala & Functional Programming Essentials',
+  instructor: 'Rock the JVM',
+  platform: 'Udemy',
+  img: 'specializations/rockTheJVMLogo.png',
+  link: 'https://www.udemy.com/certificate/UC-20fdb1dc-dd0c-4e13-93ec-f8ab6504545b/'
+}
+const scala = {
+  name: 'PySpark & AWS: Master Big Data with PySpark and AWS',
+  instructor: 'AI Sciences',
+  platform: 'Udemy',
+  img: 'specializations/AISciencesLogo.jpg',
+  link: 'https://www.udemy.com/certificate/UC-e67201f5-40c7-4458-a395-39ee0909c034/'
+}
 certifications.value = [
   deepLearningSpecialization,
   MathForMLDSSpecialization,
+  scala,
+  pyspark,
   DjangoSpecialization,
   googleCloud,
   jetsonNanoNvidia

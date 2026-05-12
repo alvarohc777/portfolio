@@ -76,17 +76,9 @@ const pyspark = {
   img: 'specializations/rockTheJVMLogo.png',
   link: 'https://www.udemy.com/certificate/UC-20fdb1dc-dd0c-4e13-93ec-f8ab6504545b/'
 }
-const scala = {
-  name: 'PySpark & AWS: Master Big Data with PySpark and AWS',
-  instructor: 'AI Sciences',
-  platform: 'Udemy',
-  img: 'specializations/AISciencesLogo.jpg',
-  link: 'https://www.udemy.com/certificate/UC-e67201f5-40c7-4458-a395-39ee0909c034/'
-}
 certifications.value = [
   deepLearningSpecialization,
   MathForMLDSSpecialization,
-  scala,
   pyspark,
   DjangoSpecialization,
   googleCloud,

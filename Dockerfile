@@ -1,13 +1,14 @@
 # Stage 1: Build Stage
-FROM node:slim AS build
+FROM node:slim AS develop
 WORKDIR /portfolio/
+
 COPY . .
 RUN npm install -g @quasar/cli
 RUN npm install
+
+FROM develop as build
 RUN quasar build
 
-RUN npm install
-RUN quasar build
 
 # Stage 2: Final Stage
 FROM nginx:1.25.3-alpine3.18 AS production-stage

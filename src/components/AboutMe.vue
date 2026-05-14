@@ -1,6 +1,6 @@
 <template>
   <q-list class="rounded-borders">
-    <q-item clickable href="https://www.bluetab.net/es/" target="_blank">
+    <q-item clickable href="https://www.uninorte.edu.co/" target="_blank">
       <q-item-section avatar top>
         <q-icon color="black" size="34px">
           <img src="~assets/uninorteLogo.jpg" alt="uninorteLogo" />

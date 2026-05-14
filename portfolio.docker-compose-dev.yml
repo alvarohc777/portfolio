@@ -6,10 +6,15 @@ services:
       context: .
       target: develop
     container_name: portfolio
-    working_dir: /app
+    working_dir: /portfolio
     volumes:
-      - .:/app
+      - .:/portfolio
+      - portfolio_modules:/portfolio/node_modules 
+      # - /portfolio/node_modules 
     ports:
       - 80:80
     
     entrypoint: /bin/sh -c "quasar dev -p 80"
+
+volumes:
+  portfolio_modules:

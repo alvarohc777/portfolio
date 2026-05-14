@@ -2,11 +2,13 @@
 FROM node:slim AS develop
 WORKDIR /portfolio/
 
-COPY . .
+# COPY . .
+COPY package*.json ./
 RUN npm install -g @quasar/cli
 RUN npm install
 
 FROM develop as build
+COPY . .
 RUN quasar build
 
 

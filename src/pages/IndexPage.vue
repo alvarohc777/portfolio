@@ -2,16 +2,16 @@
   <q-page class="column flex flex-center justify-around">
     <div class="column" style="margin-top: 30px; margin-bottom: 20px">
       <q-avatar size="320px" round>
-        <img src="~assets/profilePicture3.png" alt="profile-picture" />
+        <img src="~assets/profilePic.png" alt="profile-picture" />
       </q-avatar>
       <q-item>
         <q-item-section class="text-center">
           <q-item-label overline style="font-size: 20px">{{
             personalInfo.name
-            }}</q-item-label>
+          }}</q-item-label>
           <q-item-label caption lines="2">{{
             personalInfo.careerInterests
-            }}</q-item-label>
+          }}</q-item-label>
         </q-item-section>
       </q-item>
 

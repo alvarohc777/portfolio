@@ -1,18 +1,18 @@
-# Stage 1: Build Stage
+# Stage 1: Develop Stage
 FROM node:slim AS develop
 WORKDIR /portfolio/
 
-# COPY . .
 COPY package*.json ./
 RUN npm install -g @quasar/cli
 RUN npm install
 
+# Stage 2: Build Stage
 FROM develop as build
 COPY . .
 RUN quasar build
 
 
-# Stage 2: Final Stage
+# Stage 3: Production Stage
 FROM nginx:1.25.3-alpine3.18 AS production-stage
 COPY --from=build /portfolio/dist/spa/ /usr/share/nginx/html
 COPY nginx/conf.d/default.conf /etc/nginx/conf.d/default.conf

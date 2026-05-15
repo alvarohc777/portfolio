@@ -6,7 +6,7 @@ services:
     # build:
     #   context: .
     # image: portfolio:v0.1
-    image: ghcr.io/alvarohc777/portfolio:v2.0
+    image: ghcr.io/alvarohc777/portfolio:v2.1
 
     ports:
       - 443:443

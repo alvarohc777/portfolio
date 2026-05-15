@@ -10,7 +10,6 @@ services:
     volumes:
       - .:/portfolio
       - portfolio_modules:/portfolio/node_modules 
-      # - /portfolio/node_modules 
     ports:
       - 80:80
     

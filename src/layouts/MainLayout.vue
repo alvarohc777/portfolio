@@ -68,10 +68,10 @@ const linksList = [
     link: 'https://www.instagram.com/fcfinale_/'
   },
   {
-    title: 'Racing Uninorte F.C.',
-    caption: 'Graduate Sundaly League Team',
+    title: 'F.C. Wabern',
+    caption: '4. Liga Aktive',
     icon: 'fa-regular fa-futbol',
-    link: 'https://www.instagram.com/racinguninorte/'
+    link: 'https://www.fcwabern.ch/'
   },
   {
     title: 'Dante',

@@ -14,20 +14,6 @@
           }}</q-item-label>
         </q-item-section>
       </q-item>
-
-      <!-- <div class="column justify-around">
-        <q-img
-          alt="profilePicture"
-          src="~assets/profilePicture3.png"
-          spinner-color="blue"
-          width="350px"
-          :img-style="{ borderRadius: '50%' }"
-        />
-        <div class="text-overline" style="padding-top: 15px; font-size: 20px">
-          {{ personalInfo.name }}
-        </div>
-        <div class="text-caption">{{ personalInfo.career }}</div>
-      </div> -->
     </div>
     <div id="aboutme" class="section-container">
       <q-separator inset />
@@ -35,9 +21,15 @@
         <q-item-label overline style="font-size: 20px">About me</q-item-label>
       </div>
       <AboutMe></AboutMe>
-      <!-- <div class="q-pa-md row justify-start q-gutter-md">
-        <AboutMe></AboutMe>
-      </div> -->
+      </div>
+    <div id="publications" class="section-container">
+      <q-separator inset />
+<div class="q-pa-md row justify-between q-gutter-md">
+        <q-item-label overline style="font-size: 20px"
+          >Publications</q-item-label
+>
+      </div>
+      <PublicationsCards></PublicationsCards>
     </div>
     <div id="projects" class="section-container">
       <q-separator inset />

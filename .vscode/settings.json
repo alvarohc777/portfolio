@@ -7,5 +7,8 @@
   "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
-  }
+},
+"[vue]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+}
 }

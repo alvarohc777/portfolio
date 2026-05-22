@@ -12,6 +12,9 @@
           <q-item-label caption lines="2">{{
             personalInfo.careerInterests
           }}</q-item-label>
+          <q-item-label caption lines="3">{{
+            personalInfo.location
+          }}</q-item-label>
         </q-item-section>
       </q-item>
     </div>

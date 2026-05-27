@@ -34,7 +34,6 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <!-- <q-footer reveal> hola </q-footer> -->
   </q-layout>
 </template>
 

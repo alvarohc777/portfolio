@@ -13,11 +13,10 @@
 
       <q-item-section top>
         <q-item-label lines="1">
-          <span class="text-weight-medium"
-            >Fault Detection System for Smart City Distribution Networks: A Long
-            Short-Term Memory-Based Approach</span
-          >
-          <span class="text-grey-8 text-caption"> | 2025</span>
+          <span class="text-weight-medium">
+            Fault Detection System for Smart City Distribution Networks: A Long
+            Short-Term Memory-Based Approach
+          </span>
         </q-item-label>
         <q-item-label caption lines="1">
           Journal: Energies | Publisher: MDPI
@@ -28,7 +27,12 @@
         >
         </q-item-label>
       </q-item-section>
+
+      <q-item-section side top>
+        <span class="text-grey-8 text-caption">2025</span>
+      </q-item-section>
     </q-item>
+
     <q-item
       clickable
       href="https://ieeexplore.ieee.org/abstract/document/9798783"
@@ -42,11 +46,10 @@
 
       <q-item-section top>
         <q-item-label lines="1">
-          <span class="text-weight-medium"
-            >Adaptive Fault Detection Based on Neural Networks and Multiple
-            Sampling Points for Distribution Networks and Microgrids</span
-          >
-          <span class="text-grey-8 text-caption"> | 2022</span>
+          <span class="text-weight-medium">
+            Adaptive Fault Detection Based on Neural Networks and Multiple
+            Sampling Points for Distribution Networks and Microgrids
+          </span>
         </q-item-label>
         <q-item-label caption lines="1">
           Journal: Modern Power Systems and Clean Energy | Publisher: SGEPRI
@@ -57,7 +60,10 @@
         >
         </q-item-label>
       </q-item-section>
+
+      <q-item-section side top>
+        <span class="text-grey-8 text-caption">2022</span>
+      </q-item-section>
     </q-item>
-    <!-- <q-separator spaced /> -->
   </q-list>
 </template>

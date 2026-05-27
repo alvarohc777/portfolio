@@ -12,9 +12,16 @@
           <span class="text-weight-medium">MSc Electrical Engineering</span>
           <span class="text-grey-8"> - Universidad del Norte</span>
         </q-item-label>
+
         <q-item-label caption lines="1"> Barranquilla, Colombia </q-item-label>
-        <q-item-label lines="1" class="q-mt-xs text-body2 text-weight-bold text-primary text-uppercase">
+        <q-item-label
+          lines="1"
+          class="q-mt-xs text-body2 text-weight-bold text-primary text-uppercase"
+        >
         </q-item-label>
+      </q-item-section>
+      <q-item-section side top>
+        <span class="text-grey-8 text-caption">Mar 2026</span>
       </q-item-section>
     </q-item>
     <q-item clickable href="https://www.uninorte.edu.co/" target="_blank">
@@ -30,8 +37,14 @@
           <span class="text-grey-8"> - Universidad del Norte</span>
         </q-item-label>
         <q-item-label caption lines="1"> Barranquilla, Colombia </q-item-label>
-        <q-item-label lines="1" class="q-mt-xs text-body2 text-weight-bold text-primary text-uppercase">
+        <q-item-label
+          lines="1"
+          class="q-mt-xs text-body2 text-weight-bold text-primary text-uppercase"
+        >
         </q-item-label>
+      </q-item-section>
+      <q-item-section side top>
+        <span class="text-grey-8 text-caption">Feb 2021</span>
       </q-item-section>
     </q-item>
     <!-- <q-separator spaced /> -->

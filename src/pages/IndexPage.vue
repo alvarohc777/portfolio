@@ -46,6 +46,20 @@
       </q-scroll-area>
     </div>
 
+    <!-- <div id="workExperience" class="section-container">
+      <q-separator inset />
+      <div class="q-pa-md row justify-between q-gutter-md">
+        <q-item-label overline style="font-size: 20px"
+          >Work Experience</q-item-label
+        >
+      </div>
+      <q-scroll-area visible="false" style="height: 500px; width: 100%">
+        <div class="q-pa-md row justify-center q-gutter-md">
+          <WorkExperience></WorkExperience>
+        </div>
+      </q-scroll-area>
+    </div> -->
+
     <div id="certifications" class="section-container">
       <q-separator inset />
       <div class="q-pa-md row justify-between q-gutter-md">
@@ -54,15 +68,11 @@
         </q-item-label>
       </div>
 
-      <!-- <div class="q-pa-md row justify-start q-gutter-md">
-        <CertificationsCards></CertificationsCards>
-      </div> -->
       <q-scroll-area visible="false" style="height: 270px; width: 100%">
         <div class="q-pa-md row justify-start q-gutter-md">
           <CertificationsCards></CertificationsCards>
         </div>
       </q-scroll-area>
-      <!-- <CertificationsCards></CertificationsCards> -->
     </div>
     <div id="playlists" class="section-container">
       <q-separator inset />
@@ -129,6 +139,7 @@ import ProjectsCards from 'components/ProjectsCards.vue'
 import AboutMe from 'components/AboutMe.vue'
 import CertificationsCards from 'components/CertificationsCards.vue'
 import PublicationsCards from 'components/PublicationsCards.vue'
+// import WorkExperience from 'src/components/WorkExperience.vue'
 import { ref } from 'vue'
 const personalInfo = ref([])
 // const spotifyHeight = '152'
